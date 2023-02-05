@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "182310736208",
+    "project_id": "the-dog-project-27216",
+    "storage_bucket": "the-dog-project-27216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182310736208:android:a52b7684b2470a897b5c55",
+        "android_client_info": {
+          "package_name": "com.myapppackage.mascotitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182310736208-0pqrb1r4nvbn15akvm73ta45giqjl0nb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapppackage.mascotitas",
+            "certificate_hash": "e11dd534e56e253960b7d0294dfe7cbd564a7e33"
+          }
+        },
+        {
+          "client_id": "182310736208-e3tcaot9jeoa5lj4cbqodh6pb75macsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapppackage.mascotitas",
+            "certificate_hash": "e1fac44f1e907444b5c23b67e7949c1fc2383b86"
+          }
+        },
+        {
+          "client_id": "182310736208-gcpht188mf4l0dijq0rc7pgn76pue01s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcUBUXv9y2Ler5iYkslP5X7DvrUyi_AkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182310736208-gcpht188mf4l0dijq0rc7pgn76pue01s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182310736208:android:ba69906977877f657b5c55",
+        "android_client_info": {
+          "package_name": "com.myapppackage.the_dog_project_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182310736208-5fa7eib2sccn8kl2cq54o3d0ttnd2dk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapppackage.the_dog_project_admin",
+            "certificate_hash": "e11dd534e56e253960b7d0294dfe7cbd564a7e33"
+          }
+        },
+        {
+          "client_id": "182310736208-vsbkl83qb2256kmv15r2n2kuutvl0sdi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapppackage.the_dog_project_admin",
+            "certificate_hash": "e1fac44f1e907444b5c23b67e7949c1fc2383b86"
+          }
+        },
+        {
+          "client_id": "182310736208-gcpht188mf4l0dijq0rc7pgn76pue01s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcUBUXv9y2Ler5iYkslP5X7DvrUyi_AkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182310736208-gcpht188mf4l0dijq0rc7pgn76pue01s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

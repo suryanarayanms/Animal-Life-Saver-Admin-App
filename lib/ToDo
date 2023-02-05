@@ -1,0 +1,18 @@
+Variant: debug
+Config: debug
+Store: C:\Users\Acer\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 72:CA:54:69:B5:C0:F2:56:97:20:A1:C5:37:FD:BD:30
+SHA1: E1:1D:D5:34:E5:6E:25:39:60:B7:D0:29:4D:FE:7C:BD:56:4A:7E:33
+SHA-256: 65:6F:F4:61:11:BD:C7:FF:AC:D8:66:DE:CD:1D:FA:F9:CD:F7:7E:7A:72:02:E3:0D:22:B2:F8:CB:A8:3B:6F:8B
+Valid until: Tuesday, 12 December, 2051
+----------
+Variant: release
+Config: release
+Store: C:\Users\Acer\upload-keystore.jks
+Alias: upload
+MD5: 54:1B:A9:E6:C0:15:1D:67:AD:0B:EE:89:B6:0D:86:AA
+SHA1: E1:FA:C4:4F:1E:90:74:44:B5:C2:3B:67:E7:94:9C:1F:C2:38:3B:86
+SHA-256: 9E:EF:8E:9B:80:24:FB:50:71:08:60:39:EA:E5:1E:F8:4D:EF:B0:A0:52:02:63:F9:FD:71:9D:CD:01:12:B8:78
+Valid until: Thursday, 9 September, 2049
+----------
