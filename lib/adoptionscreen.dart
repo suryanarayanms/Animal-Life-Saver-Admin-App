@@ -676,7 +676,7 @@ class _AdoptionScreenState extends State<AdoptionScreen> {
                                                           issue = doc['issue'],
                                                           status =
                                                               doc['status'],
-                                                          note = doc['note'],
+                                                          note = doc['reason'],
                                                           statusImage = doc[
                                                               'status_image'],
                                                           Navigator.push(
