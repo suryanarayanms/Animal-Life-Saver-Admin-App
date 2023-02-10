@@ -44,6 +44,9 @@ dependencies:
   image_picker: ^0.8.6+1 
   url_launcher:
   google_sign_in:
+  flutter_phone_direct_caller:
+  geolocator:
+  geocoding:
 
 dev_dependencies:
   flutter_test:

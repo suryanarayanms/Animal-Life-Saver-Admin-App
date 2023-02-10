@@ -47,6 +47,11 @@ class _AdoptionScreenState extends State<AdoptionScreen> {
   var statusImage;
 
   var userID;
+
+  double lat;
+  double long;
+
+  var userPhoneNumber;
   Future<void> retrieveData() async {
     number = context.watch<TemporaryData>().phoneNumber;
   }
@@ -677,40 +682,48 @@ class _AdoptionScreenState extends State<AdoptionScreen> {
                                                           status =
                                                               doc['status'],
                                                           note = doc['reason'],
-                                                          statusImage = doc[
-                                                              'status_image'],
+                                                          lat = doc['latitude'],
+                                                          long =
+                                                              doc['longitude'],
+                                                          userPhoneNumber = doc[
+                                                              'phoneNumber'],
+                                                          print(lat),
+                                                          print(long),
                                                           Navigator.push(
                                                               context,
                                                               MaterialPageRoute(
-                                                                  builder: (context) => Viewrequest(
-                                                                      phoneNumber: context
-                                                                          .watch<
-                                                                              TemporaryData>()
-                                                                          .phoneNumber,
-                                                                      userID:
-                                                                          userID,
-                                                                      name: context
-                                                                          .watch<
-                                                                              TemporaryData>()
-                                                                          .name,
-                                                                      status:
-                                                                          status,
-                                                                      reqID:
-                                                                          reqID,
-                                                                      location:
-                                                                          location,
-                                                                      landmark:
-                                                                          landmark,
-                                                                      comment:
-                                                                          comment,
-                                                                      imageurl:
-                                                                          imageurl,
-                                                                      issue:
-                                                                          issue,
-                                                                      note:
-                                                                          note,
-                                                                      statusImage:
-                                                                          statusImage)))
+                                                                  builder:
+                                                                      (context) =>
+                                                                          Viewrequest(
+                                                                            userPhoneNumber:
+                                                                                userPhoneNumber,
+                                                                            lat:
+                                                                                lat,
+                                                                            long:
+                                                                                long,
+                                                                            phoneNumber:
+                                                                                context.watch<TemporaryData>().phoneNumber,
+                                                                            userID:
+                                                                                userID,
+                                                                            name:
+                                                                                context.watch<TemporaryData>().name,
+                                                                            status:
+                                                                                status,
+                                                                            reqID:
+                                                                                reqID,
+                                                                            location:
+                                                                                location,
+                                                                            landmark:
+                                                                                landmark,
+                                                                            comment:
+                                                                                comment,
+                                                                            imageurl:
+                                                                                imageurl,
+                                                                            issue:
+                                                                                issue,
+                                                                            note:
+                                                                                note,
+                                                                          )))
                                                         },
                                                         child: Padding(
                                                           padding:
