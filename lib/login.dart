@@ -41,7 +41,7 @@ class _LoginState extends State<Login> {
             ),
           ),
           const Center(
-            child: Text('Life is better with a dog',
+            child: Text('Life is better with a pet',
                 style: TextStyle(
                     color: Colors.black,
                     fontFamily: "BebasNeue",
